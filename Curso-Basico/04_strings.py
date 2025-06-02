@@ -67,3 +67,14 @@ print(language.isnumeric())# Este método verifica si todos los caracteres de la
 print('1'.isnumeric())# Aquí se aplica el método isnumeric() directamente sobre la cadena
 print(language.lower())# Este método convierte todos los caracteres de la cadena a minúsculas.
 print(language.startswith('Py'))# Este método verifica si la cadena comienza con una subcadena específica.
+
+text1 = '¿Sabes por que estoy acá?'
+text2 = 'Porque me apasiona'
+
+print(text1, text2)
+# El separador por defecto entre las variables es un espacio,
+# podemos cambiar el carácter que se utiliza como separador entre cadenas.
+print(text1, text2, sep='│')
+
+print(text2, end='!!')
+# El carácter de final de texto es un salto de línea, podemos cambiar el carácter que se utiliza como final de texto.
